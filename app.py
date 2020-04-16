@@ -1,6 +1,6 @@
 #  Code written by Jerin Rajan on 15th April 2020
 #  app.py - this file contains code that handles the
-# entry & exit point to our application
+# entry & exit point to our application (View)
 
 # import Flask
 from flask import Flask
@@ -27,4 +27,5 @@ def hello_name(name):
 if __name__ == '__main__':
     # run the flask app
     # app.run()
+    Schema()
     app.run(debug=True)
